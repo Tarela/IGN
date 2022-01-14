@@ -1,0 +1,21 @@
+Package: IGN
+Title: IGN: Invariable gene set based normalization for chromatin
+        accessibility profile data analysis
+Version: 1.0.0
+Authors@R: 
+    person(given = "Shengen",
+           family = "Hu",
+           role = c("aut", "cre"),
+           email = "sh8tv@virginia.edu",
+           comment = c(ORCID = "0000-0002-9691-7344"))
+Description: IGN is performed by normalizing the promoter chromatin accessibility signals for a given gene set that is unchanged in expression, usually obtained from accompanying RNA-seq data, and extrapolating to scale the genome-wide chromatin accessibility profile. This function allows users to normalize ATAC/DNase-seq signal matrix based on promoter signal of invariable genes. 
+License: GPL3
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.2
+Depends: R (>= 3.0)
+NeedsCompilation: no
+Packaged: 2022-01-14 02:21:02 UTC; sh8tv
+Author: Shengen Hu [aut, cre] (<https://orcid.org/0000-0002-9691-7344>)
+Maintainer: Shengen Hu <sh8tv@virginia.edu>
