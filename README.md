@@ -6,9 +6,6 @@ We present IGN (Invariable Gene Normalization), a method for ATAC-seq and DNase-
 
 [![R 3.0](https://img.shields.io/badge/R-3.0-blue.svg)](https://www.r-project.org/)
 [![GitHub license](https://img.shields.io/github/license/Tarela/IGN)](https://github.com/Tarela/IGN/blob/main/LICENSE)
-![GitHub](https://img.shields.io/github/v/release/tarela/IGN)
-![GitHub](https://img.shields.io/github/commit-activity/m/tarela/IGN)
-![GitHub](https://img.shields.io/github/repo-size/tarela/IGN)
 
 ## 0. Introduction of IGN package
 IGN is performed by normalizing the promoter chromatin accessibility signals for a given gene set that is unchanged in expression, usually obtained from accompanying RNA-seq data, and extrapolating to scale the genome-wide chromatin accessibility profile. This function allows users to normalize ATAC/DNase-seq signal matrix based on promoter signal of invariable genes. 
@@ -29,8 +26,8 @@ $ R CMD INSTALL IGN_1.0.0.tar.gz
 ```
 
 ## 2. Run IGN (usage)
-Check the R help document in the IGN package for detailed tutorial
-- Type the following code in an R session after installing it:
+- Check the R help document in the IGN package for detailed tutorial<br>
+Type the following code in an R session after installing it:
 ```R
 > library(IGN)
 > ?IGN
