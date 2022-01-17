@@ -43,7 +43,7 @@
 #'         transformation coefficients of each sample. Note that the coefficient of the first sample is 1}
 #'     }
 
-#' @param promoterSignal [required]a matrix of promoter signal of genome-wide genes by samples. 
+#' @param promoterSignal Required. A matrix of promoter signal of genome-wide genes by samples. 
 #'     Each row should represent a gene's promoter region (e.g., +/-1kb from TSS) and
 #'     each column for a sample. The columns should be same to the \code{targetSignal} matrix
 #'     (introduced below) and the rows should be the same as the \code{RNArpkm} matirx or
@@ -59,12 +59,12 @@
 #'     should be included in the promtoerSignal matrix. The promoter signal of these Invariable
 #'     genes are assumed to follow the same distribution and are used in the model building.
 #'     by default IGN take 200 or more Invariable genes. The Invariable gene number should be ≥ 50
-#' @param RNArpkm [required if no \code{InvariableGeneList} inputted] a matrix of expression index (RPKM) of genome-wide genes by samples. 
+#' @param RNArpkm Required if no \code{InvariableGeneList} inputted. A matrix of expression index (RPKM) of genome-wide genes by samples. 
 #'     this parameter only takes effect when \code{InvariableGeneList} is not inputted. 
 #'     Genes with sufficient expression index (RPKM higher than \code{RPKMcutoff}) in all samples/columns
 #'     are selected as the candidate of Invariable genes. Users can also input other types of expression index 
 #'     (e.g., signal from microarry) and customize the cutoff specified by \code{RPKMcutoff}.
-#' @param RNAlogfc [required if no \code{InvariableGeneList} inputted] a matrix of fold change (log scale) in all comparison. Users can calculate the log fold change 
+#' @param RNAlogfc Required if no \code{InvariableGeneList} inputted. A matrix of fold change (log scale) in all comparison. Users can calculate the log fold change 
 #'     using the \code{RNArpkm} matrix or using some external software (e.g., apeglm for log fold change shrinkage).
 #'     IGN sort invariable gene candidates (i.e., genes with RPKM ≥ 1) by the absolute log fold change and the top 200 
 #'     (default) genes with lowest absolute log fold change are selected as Invariable genes. The top Invariable gene number is
