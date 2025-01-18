@@ -1,7 +1,7 @@
 Package: IGN
 Title: IGN: Invariable gene set based normalization for chromatin
         accessibility profile data analysis
-Version: 1.0.0
+Version: 1.1.0
 Authors@R: 
     person(given = "Shengen",
            family = "Hu",
@@ -13,9 +13,9 @@ License: GPL3
 Encoding: UTF-8
 LazyData: true
 Roxygen: list(markdown = TRUE)
-RoxygenNote: 7.1.2
+RoxygenNote: 7.2.3
 Depends: R (>= 3.0)
 NeedsCompilation: no
-Packaged: 2022-01-14 02:21:02 UTC; sh8tv
+Packaged: 2025-01-17 22:38:52 UTC; sh8tv
 Author: Shengen Hu [aut, cre] (<https://orcid.org/0000-0002-9691-7344>)
 Maintainer: Shengen Hu <sh8tv@virginia.edu>

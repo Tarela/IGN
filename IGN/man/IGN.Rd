@@ -42,7 +42,7 @@ IGN sort invariable gene candidates (i.e., genes with RPKM ≥ 1) by the absolut
 specified by the parameter \code{topInvariableGene}. For more than one column provided, IGN will take average of the
 absolute log fold change for sorting.}
 
-\item{topInvariableGene}{number of top invariable genes with lowest (absolute) expression fold changes. Default is 200 (genes).}
+\item{topInvariableGene}{number of top invariable genes with lowest (absolute) expression fold changes. Default is 200 (genes). Set topInvariableGene = 100 (or other number, minimum is 50) to specify the top gene number. Set topInvariableGene = "datadriven" to activate data-driven method for optimized top invariable genes selection.}
 
 \item{InvariableGeneList}{a list of pre-identified Invariable gene. All the genes in the list
 should be included in the promtoerSignal matrix. The promoter signal of these Invariable
