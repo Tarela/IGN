@@ -11,7 +11,7 @@ We present IGN (Invariable Gene Normalization), a method for ATAC-seq and DNase-
 IGN is performed by normalizing the promoter chromatin accessibility signals for a given gene set that is unchanged in expression, usually obtained from accompanying RNA-seq data, and extrapolating to scale the genome-wide chromatin accessibility profile. This function allows users to normalize ATAC/DNase-seq signal matrix based on promoter signal of invariable genes. 
 
 - Changelog<br>
-v1.0.0 First version of IGN.
+v1.0.0 First version of IGN.<br>
 v1.1.0 CSBJ revision
 ## 1. Installation
 - Package requirements<br>
