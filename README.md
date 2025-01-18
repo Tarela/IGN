@@ -22,7 +22,7 @@ Simply clone this repo and install the IGN package in R
 ```sh
 $ git clone https://github.com/Tarela/IGN.git
 $ cd IGN/
-$ R CMD INSTALL IGN_1.0.0.tar.gz
+$ R CMD INSTALL IGN_1.1.0.tar.gz
 ```
 
 ## 2. Run IGN (usage)
