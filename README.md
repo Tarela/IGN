@@ -12,7 +12,7 @@ IGN is performed by normalizing the promoter chromatin accessibility signals for
 
 - Changelog<br>
 v1.0.0 First version of IGN.
-
+v1.1.0 CSBJ revision
 ## 1. Installation
 - Package requirements<br>
 IGN requires [Rscript](https://www.r-project.org) v3+ to run.<br>
