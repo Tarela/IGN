@@ -55,7 +55,10 @@
 #'   \code{promoterSignal} matrix. We recommend to perform log transformation for the count
 #'   data matrix to have better model building. The transformaion should be applied to 
 #'   both \code{targetSignal} and \code{promoterSignal} matrix.
-#' @param InvariableGeneList a list of pre-identified Invariable gene. All the genes in the list
+#' @param InvariableGeneList a list of pre-identified Invariable gene. By using this parameter, users can pre-identify a list of 
+#'   invariable gene they prefer, and let IGN build model base on these genes. Users can use RNA-seq or any other datasets to 
+#'   define the list. Other pre-processing and normalization methods (e.g., TMM or upper-quantile normalization) can be used on 
+#'   the preprocessing before invariable gene selection based on users preference. .All the genes in the list
 #'   should be included in the promtoerSignal matrix. The promoter signal of these Invariable
 #'   genes are assumed to follow the same distribution and are used in the model building.
 #'   by default IGN take 200 or more Invariable genes. The Invariable gene number should be ≥ 50

@@ -44,7 +44,10 @@ absolute log fold change for sorting.}
 
 \item{topInvariableGene}{number of top invariable genes with lowest (absolute) expression fold changes. Default is 200 (genes). Set topInvariableGene = 100 (or other number, minimum is 50) to specify the top gene number. Set topInvariableGene = "datadriven" to activate data-driven method for optimized top invariable genes selection.}
 
-\item{InvariableGeneList}{a list of pre-identified Invariable gene. All the genes in the list
+\item{InvariableGeneList}{a list of pre-identified Invariable gene. By using this parameter, users can pre-identify a list of
+invariable gene they prefer, and let IGN build model base on these genes. Users can use RNA-seq or any other datasets to
+define the list. Other pre-processing and normalization methods (e.g., TMM or upper-quantile normalization) can be used on
+the preprocessing before invariable gene selection based on users preference. .All the genes in the list
 should be included in the promtoerSignal matrix. The promoter signal of these Invariable
 genes are assumed to follow the same distribution and are used in the model building.
 by default IGN take 200 or more Invariable genes. The Invariable gene number should be ≥ 50}
