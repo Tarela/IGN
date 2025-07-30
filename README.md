@@ -32,3 +32,4 @@ Type the following code in an R session after installing it:
 > library(IGN)
 > ?IGN
 ```
+## 3. An example of IGN bigwig normalization can be found [here](https://www.dropbox.com/scl/fo/meelxrqzy84aul7igh5vp/AHYX5M091Ikz-A9nC2CTeuk?rlkey=63lzp3ssfyb3nvhwiuhbyj6zs&st=1w9tyylz&dl=0)
